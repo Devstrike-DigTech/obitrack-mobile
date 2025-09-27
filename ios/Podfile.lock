@@ -1,0 +1,155 @@
+PODS:
+  - DKImagePickerController/Core (4.3.9):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.9)
+  - DKImagePickerController/PhotoGallery (4.3.9):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.9)
+  - DKPhotoGallery (0.0.19):
+    - DKPhotoGallery/Core (= 0.0.19)
+    - DKPhotoGallery/Model (= 0.0.19)
+    - DKPhotoGallery/Preview (= 0.0.19)
+    - DKPhotoGallery/Resource (= 0.0.19)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.19):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.19):
+    - SDWebImage
+    - SwiftyGif
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_native_splash (2.4.3):
+    - Flutter
+  - flutter_secure_storage (6.0.0):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+  - image_cropper (0.0.4):
+    - Flutter
+    - TOCropViewController (~> 2.6.1)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - open_filex (0.0.2):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - SDWebImage (5.21.2):
+    - SDWebImage/Core (= 5.21.2)
+  - SDWebImage/Core (5.21.2)
+  - share (0.0.1):
+    - Flutter
+  - sqflite_darwin (0.0.4):
+    - Flutter
+    - FlutterMacOS
+  - SwiftyGif (5.4.5)
+  - TOCropViewController (2.6.1)
+  - uni_links3 (0.0.1):
+    - Flutter
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - image_cropper (from `.symlinks/plugins/image_cropper/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - open_filex (from `.symlinks/plugins/open_filex/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - share (from `.symlinks/plugins/share/ios`)
+  - sqflite_darwin (from `.symlinks/plugins/sqflite_darwin/darwin`)
+  - uni_links3 (from `.symlinks/plugins/uni_links3/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - DKImagePickerController
+    - DKPhotoGallery
+    - SDWebImage
+    - SwiftyGif
+    - TOCropViewController
+
+EXTERNAL SOURCES:
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  Flutter:
+    :path: Flutter
+  flutter_native_splash:
+    :path: ".symlinks/plugins/flutter_native_splash/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  image_cropper:
+    :path: ".symlinks/plugins/image_cropper/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  open_filex:
+    :path: ".symlinks/plugins/open_filex/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  share:
+    :path: ".symlinks/plugins/share/ios"
+  sqflite_darwin:
+    :path: ".symlinks/plugins/sqflite_darwin/darwin"
+  uni_links3:
+    :path: ".symlinks/plugins/uni_links3/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/darwin"
+
+SPEC CHECKSUMS:
+  DKImagePickerController: 946cec48c7873164274ecc4624d19e3da4c1ef3c
+  DKPhotoGallery: b3834fecb755ee09a593d7c9e389d8b5d6deed60
+  file_picker: b159e0c068aef54932bb15dc9fd1571818edaf49
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_native_splash: f71420956eb811e6d310720fee915f1d42852e7a
+  flutter_secure_storage: d33dac7ae2ea08509be337e775f6b59f1ff45f12
+  fluttertoast: 21eecd6935e7064cc1fcb733a4c5a428f3f24f0f
+  image_cropper: a3291c624a953049bc6a02e1f8c8ceb162a24b25
+  image_picker_ios: c560581cceedb403a6ff17f2f816d7fea1421fc1
+  open_filex: 6e26e659846ec990262224a12ef1c528bb4edbe4
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  SDWebImage: 9f177d83116802728e122410fb25ad88f5c7608a
+  share: 0b2c3e82132f5888bccca3351c504d0003b3b410
+  sqflite_darwin: 5a7236e3b501866c1c9befc6771dfd73ffb8702d
+  SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
+  TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
+  uni_links3: 19ad693a056bd6feae1154b6d8eaa81383b849fe
+  url_launcher_ios: 5334b05cef931de560670eeae103fd3e431ac3fe
+  video_player_avfoundation: 7c6c11d8470e1675df7397027218274b6d2360b3
+  webview_flutter_wkwebview: a4af96a051138e28e29f60101d094683b9f82188
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.16.2
